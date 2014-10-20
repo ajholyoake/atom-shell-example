@@ -1,0 +1,25 @@
+{
+  "name": "atom-shell-example",
+  "version": "0.0.1",
+  "authors": [
+    "Alexander Holyoake <ajholyoake@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "angular": "~1.3.0"
+  }
+}
