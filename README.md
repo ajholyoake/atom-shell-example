@@ -17,3 +17,5 @@ Then
 3) grunt fetchbinary
 
 etc etc
+
+https://github.com/angular-app/angular-app
