@@ -2,7 +2,7 @@ var app = require('app');
 var Menu = require('menu');
 var MenuItem = require('menu-item');
 var BrowserWindow = require('browser-window');
-var menuTemplate = require('./src/menu/template');
+var menuTemplate = require('./app/menu/template');
 var mainWindow = null;
 var menu = null;
 
@@ -19,7 +19,7 @@ app.on('ready', function() {
     'auto-hide-menu-bar': true,
     'use-content-size': true,
   });
-  mainWindow.loadUrl('file://' + __dirname + '/views/index.html');
+  mainWindow.loadUrl('file://' + __dirname + '/app/index.html');
   mainWindow.focus();
 
   template = menuTemplate(app,mainWindow);
